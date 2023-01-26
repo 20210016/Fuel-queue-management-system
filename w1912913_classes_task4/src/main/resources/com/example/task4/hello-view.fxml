@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CAF1DE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task4.HelloController">
+    <children>
+        <Button layoutX="372.0" layoutY="94.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="155.0" text="Search" />
+        <Button layoutX="103.0" layoutY="227.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="139.0" text="View Queues" />
+        <TextField layoutX="90.0" layoutY="94.0" prefHeight="35.0" prefWidth="268.0" promptText="Search Customer" />
+        <TextArea fx:id="Fuel_Queue_Text_Area" layoutX="344.0" layoutY="153.0" prefHeight="247.0" prefWidth="254.0" />
+        <Label alignment="CENTER" prefHeight="53.0" prefWidth="600.0" style="-fx-background-color: #ACDDDE;" text="Fuel Management System">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutY="153.0" prefHeight="53.0" prefWidth="344.0" style="-fx-background-color: #F7D8BA;" text="Fuel Queue">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="261.0" prefHeight="53.0" prefWidth="344.0" text="waiting queue" textFill="#323936">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="127.0" layoutY="328.0" mnemonicParsing="false" text="waiting queue" />
+    </children>
+</AnchorPane>
